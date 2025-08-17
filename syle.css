@@ -1,0 +1,28 @@
+#doneBtn {
+  background-color: green;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#doneBtn:hover {
+  background-color: darkgreen;
+}
+
+#tryAgainBtn {
+  background-color: gray;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#tryAgainBtn:hover {
+  background-color: black;
+}
+
