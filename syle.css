@@ -1,28 +1,59 @@
-#doneBtn {
-  background-color: green;
-  color: white;
-  padding: 8px 16px;
+#body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f9;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
 }
 
-#doneBtn:hover {
-  background-color: darkgreen;
+#doneBtn {
+  background: green;
+  color: white;
 }
 
 #tryAgainBtn {
-  background-color: gray;
+  background: orange;
   color: white;
-  padding: 8px 16px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
 }
 
-#tryAgainBtn:hover {
-  background-color: black;
+#winner {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.lose {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+#attempts {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #555;
 }
 
